@@ -1,5 +1,5 @@
-Model,Split,Precision,Recall,mAP50,mAP50_95,TrainHours
-yolov8n,val,0.906,0.852,0.907,0.58,0.0
-yolov8n,test,0.893,0.82,0.865,0.563,0.0
-yolov8s,val,0.907,0.873,0.917,0.595,1.01
-yolov8s,test,0.911,0.836,0.888,0.586,1.01
+Model,Split,Precision,Recall,mAP50,mAP50_95,TrainHours,val_box_loss,val_cls_loss,val_dfl_loss
+yolov8n,val,0.906,0.852,0.907,0.58,0.59,1.199,0.659,1.231
+yolov8n,test,0.893,0.82,0.865,0.563,0.59,1.199,0.659,1.231
+yolov8s,val,0.907,0.873,0.917,0.595,1.0,1.163,0.607,1.229
+yolov8s,test,0.911,0.836,0.888,0.586,1.0,1.163,0.607,1.229
